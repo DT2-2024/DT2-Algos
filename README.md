@@ -20,6 +20,7 @@ Spectrogram naming protocol:
 
 Model naming protocol:
   Model training codes are in Model Training and Inference code
+  
     -  All outputs from each model should be saved in the same folder with the convention: saved_models/Parameter Being Changed_Unique Identifer_Audio Input Folder_Date
     -  Models themselves:"Da te_Parameter Being Changed_Unique Identifier.keras"
     -  Model loss/accuracy graphs and confusion matrices: "(loss/acc/conf)_Date_Parameter Being Changed_Unique Identifier.png"
