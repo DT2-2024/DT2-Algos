@@ -15,7 +15,8 @@ High-level protocol:
 Spectrogram naming protocol:
   Spectrogram codes are in Spectrogram Codes
   -  Spectrograms themselves are saved in spectro_output. Naming convention for folder:
-        " Parameter being changed_Unique identifier_Audio input folder_Date "
+
+       " Parameter being changed_Unique identifier_Audio input folder_Date "
 
 Model naming protocol:
   Model training codes are in Model Training and Inference code
