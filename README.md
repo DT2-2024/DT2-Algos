@@ -8,20 +8,20 @@ Note that all code is currently pulled directly from Drive, so code will have to
 General protocol (FOR ALL TESTING, CHANGE THE DIRECTORIES AS NECESSARY BASED ON LOCAL FILE MANAGMENT):
 1. Use splicing code to splice audios based on labels
 2. Run spliced audios through spectrogram codes to create spectrograms for the model
-4. Train and tune the model on spectrograms
+4. Train and tune a model on the created spectrograms
 5. Record results
-6. Upload ALL data (spliced code, spectrograms, model, model code) to the Drive
+6. Upload ALL data (spliced code, spectrograms, model, model code) to the Drive in their respective folders
 
 Spectrogram naming protocol:
-  Spectrogram codes are in Spectrogram Codes
+  Spectrogram codes are in "Spectrogram Codes" folder
   -  Spectrograms themselves are saved in spectro_output. Naming convention for folder:
 
-       " Parameter being changed_Unique identifier_Audio input folder_Date "
+       " [Parameter being changed]_[Unique identifier]_[Audio input folder]_[Date] "
 
 Model naming protocol: Model training codes are in Model Training and Inference code
-  -  All outputs from each model should be saved in the same folder with the convention: saved_models/Parameter Being Changed_Unique Identifer_Audio Input Folder_Date
-  -  Models themselves:"Da te_Parameter Being Changed_Unique Identifier.keras"
-  -  Model loss/accuracy graphs and confusion matrices: "(loss/acc/conf)_Date_Parameter Being Changed_Unique Identifier.png"
+  -  All outputs from each model should be saved in the same folder with the convention: saved_models/[Parameter Being Changed]_[Unique Identifer]_[Audio Input Folder]_[Date]
+  -  Models themselves:"[Date]_[Parameter Being Changed]_[Unique Identifier].keras"
+  -  Model loss/accuracy graphs and confusion matrices: "[loss/acc/conf]_[Date]_[Parameter Being Changed]_[Unique Identifier].png"
 
 Naming key:
   -  Date: Year (2024) Month (XX) Day (XX) (Ex: 20240401)
